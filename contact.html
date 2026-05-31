@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Statewide Facility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="top-strip">
+      <div class="container top-strip-inner">
+        <a href="tel:4075550148" class="top-link">(407) 555-0148</a>
+        <a href="mailto:service@statewidefacility.com" class="top-link">service@statewidefacility.com</a>
+        <a href="contact.html" class="top-cta">Get Started</a>
+      </div>
+    </div>
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Statewide Facility home">
+        <img src="sf-logo.png" class="brand-logo" alt="Statewide Facility logo">
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" class="active">Contact Us</a>
+        <a href="careers.html">Careers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <div class="page-hero-grid">
+        <div>
+          <p class="kicker">Let us support your sites</p>
+          <h1>Contact Us Today</h1>
+          <p>
+            Reach our team for service requests, maintenance planning, or portfolio onboarding.
+          </p>
+        </div>
+        <img src="https://picsum.photos/seed/sf-contact-hero/1200/760" alt="Facility coordination team" class="page-hero-media" loading="lazy" decoding="async">
+      </div>
+    </section>
+
+    <section class="section split" aria-label="Contact information and form">
+      <article class="card">
+        <h3>Get In Touch</h3>
+        <ul class="contact-list">
+          <li><strong>Phone:</strong> (407) 555-0148</li>
+          <li><strong>Email:</strong> service@statewidefacility.com</li>
+          <li><strong>Office:</strong> Orlando, FL</li>
+          <li><strong>Coverage:</strong> Greater Orlando area</li>
+          <li><strong>Hours:</strong> Mon-Sat, 7:00 AM - 8:00 PM</li>
+        </ul>
+      </article>
+
+      <form class="form-shell" action="#" method="post">
+        <h3>Request a Call Back</h3>
+
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="company">Company</label>
+        <input id="company" name="company" type="text">
+
+        <label for="service">Service Needed</label>
+        <select id="service" name="service" required>
+          <option value="">Select a service</option>
+          <option>Pest Control</option>
+          <option>Janitorial</option>
+          <option>Electrical</option>
+          <option>Paints</option>
+          <option>Dry Wall</option>
+          <option>Pressure Wash Interior &amp; Exterior</option>
+          <option>Doors</option>
+          <option>Windows</option>
+          <option>Glass</option>
+        </select>
+
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" placeholder="Tell us about your location and service request"></textarea>
+
+        <div class="button-row">
+          <button class="button primary" type="submit">Send Request</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section split" aria-label="Dispatch support">
+      <article class="card">
+        <h3>Dispatch and Service Coverage</h3>
+        <p>
+          Our Orlando dispatch desk coordinates urgent and scheduled calls with clear response
+          windows and status updates.
+        </p>
+        <p>
+          Share your service scope and location count and we will provide a clear action plan.
+        </p>
+      </article>
+      <article class="image-card tall">
+        <img src="https://picsum.photos/seed/sf-contact/1200/900" alt="Service dispatch coordination workspace" loading="lazy" decoding="async" class="lazy-media">
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <strong>Statewide Facility</strong> | Fast and reliable service across Orlando
+    </div>
+  </footer>
+</body>
+</html>
