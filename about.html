@@ -9,43 +9,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="top-strip">
-      <div class="container top-strip-inner">
-        <a href="tel:4075550148" class="top-link">(407) 555-0148</a>
-        <a href="mailto:service@statewidefacility.com" class="top-link">service@statewidefacility.com</a>
-        <a href="contact.html" class="top-cta">Get Started</a>
-      </div>
-    </div>
-    <div class="container header-inner">
-      <a href="index.html" class="brand" aria-label="Statewide Facility home">
-        <img src="sf-logo.png" class="brand-logo" alt="Statewide Facility logo">
+<body class="inner-shell">
+  <header class="site-header hero-header">
+    <div class="header-shell">
+      <a href="index.html" class="brand-block" aria-label="Statewide Facility home">
+        <img src="sf-logo.png" class="brand-logo-home" alt="Statewide Facility logo">
       </a>
+
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Home</a>
-        <a href="about.html" class="active">About Us</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Services</a>
         <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
       </nav>
+
+      <div class="header-actions">
+        <a href="tel:4075550148" class="header-mini-pill">Call Us</a>
+        <a href="contact.html" class="button primary quote-btn">Get A Quote</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="page-hero">
-      <div class="page-hero-grid">
+  <section class="inner-hero inner-hero-about" aria-label="About banner">
+    <div class="inner-hero-overlay">
+      <div class="container inner-hero-content">
         <div>
-          <p class="kicker">About Statewide Facility</p>
-          <h1>Built for scale. Focused on service.</h1>
-          <p>
-            We are a full-service facilities company supporting commercial and residential properties throughout
-            Orlando. Our team is designed for reliability at scale, with processes that match the standards of
-            large enterprise operations.
-          </p>
+          <p class="kicker-hero">Statewide Facility</p>
+          <h1>About Us</h1>
         </div>
-        <img src="https://picsum.photos/seed/sf-about-hero/1200/760" alt="Modern commercial properties" class="page-hero-media" loading="lazy" decoding="async">
       </div>
-    </section>
+    </div>
+  </section>
+
+  <div class="ticker" aria-label="Service ticker">
+    <div class="ticker-track">
+      Pest Control &nbsp;•&nbsp; Janitorial &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Paints &nbsp;•&nbsp; Dry Wall &nbsp;•&nbsp; Pressure Wash Interior &amp; Exterior &nbsp;•&nbsp; Doors &nbsp;•&nbsp; Windows &nbsp;•&nbsp; Glass &nbsp;&nbsp;|&nbsp;&nbsp;
+      Pest Control &nbsp;•&nbsp; Janitorial &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Paints &nbsp;•&nbsp; Dry Wall &nbsp;•&nbsp; Pressure Wash Interior &amp; Exterior &nbsp;•&nbsp; Doors &nbsp;•&nbsp; Windows &nbsp;•&nbsp; Glass &nbsp;&nbsp;|&nbsp;&nbsp;
+    </div>
+  </div>
+
+  <main class="container">
 
     <section class="section split" aria-label="Mission and capabilities">
       <article class="card">
@@ -72,7 +81,7 @@
 
     <section class="section split" aria-label="Company profile">
       <article class="image-card tall">
-        <img src="https://picsum.photos/seed/sf-about/1200/900" alt="Statewide Facility operations team" loading="lazy" decoding="async" class="lazy-media">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80" alt="Statewide Facility operations team coordinating work" loading="lazy" decoding="async" class="lazy-media">
       </article>
       <article class="card">
         <h3>Enterprise Mindset</h3>
@@ -88,9 +97,11 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <strong>Statewide Facility</strong> | One call for all your service needs
+  <footer class="site-footer-full" aria-label="Site footer">
+    <div class="container footer-mini">
+      <img src="sf-logo.png" alt="Statewide Facility" class="footer-logo-mini" loading="lazy">
+      <p class="footer-mini-meta">(407) 555-0148</p>
+      <p class="footer-mini-meta">© 2026 Statewide Facility. All rights reserved.</p>
     </div>
   </footer>
 </body>

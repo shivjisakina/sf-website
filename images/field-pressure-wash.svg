@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+  <title id="title">Exterior Pressure Wash</title>
+  <desc id="desc">Stylized building facade being cleaned with high-pressure water stream.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b9dcff"/>
+      <stop offset="100%" stop-color="#e9f4ff"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5b7299"/>
+      <stop offset="100%" stop-color="#243c64"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="760" fill="url(#sky)"/>
+  <rect y="560" width="1000" height="200" fill="#192f53"/>
+
+  <g>
+    <rect x="110" y="120" width="780" height="460" rx="12" fill="url(#wall)"/>
+    <g fill="#9ec4f3" opacity="0.9">
+      <rect x="145" y="155" width="150" height="95"/>
+      <rect x="320" y="155" width="150" height="95"/>
+      <rect x="495" y="155" width="150" height="95"/>
+      <rect x="670" y="155" width="150" height="95"/>
+      <rect x="145" y="275" width="150" height="95"/>
+      <rect x="320" y="275" width="150" height="95"/>
+      <rect x="495" y="275" width="150" height="95"/>
+      <rect x="670" y="275" width="150" height="95"/>
+    </g>
+    <rect x="145" y="395" width="675" height="150" fill="#d6e8ff" opacity="0.35"/>
+  </g>
+
+  <g transform="translate(80 420)">
+    <rect x="0" y="72" width="200" height="24" rx="8" fill="#101c36"/>
+    <circle cx="46" cy="95" r="22" fill="#0d1730"/>
+    <circle cx="154" cy="95" r="22" fill="#0d1730"/>
+    <rect x="120" y="8" width="16" height="64" fill="#1f2f50"/>
+    <rect x="128" y="14" width="104" height="8" fill="#f6cf5e"/>
+    <circle cx="236" cy="18" r="8" fill="#f6cf5e"/>
+    <path d="M245 18 C300 18, 350 30, 520 85" stroke="#7fd4ff" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M518 84 C580 106, 660 130, 740 122" stroke="#9ce3ff" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <text x="66" y="694" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#f2f6ff">PRESSURE WASH • EXTERIOR RESTORATION</text>
+</svg>

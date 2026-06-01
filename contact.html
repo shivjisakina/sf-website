@@ -9,41 +9,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="top-strip">
-      <div class="container top-strip-inner">
-        <a href="tel:4075550148" class="top-link">(407) 555-0148</a>
-        <a href="mailto:service@statewidefacility.com" class="top-link">service@statewidefacility.com</a>
-        <a href="contact.html" class="top-cta">Get Started</a>
-      </div>
-    </div>
-    <div class="container header-inner">
-      <a href="index.html" class="brand" aria-label="Statewide Facility home">
-        <img src="sf-logo.png" class="brand-logo" alt="Statewide Facility logo">
+<body class="inner-shell">
+  <header class="site-header hero-header">
+    <div class="header-shell">
+      <a href="index.html" class="brand-block" aria-label="Statewide Facility home">
+        <img src="sf-logo.png" class="brand-logo-home" alt="Statewide Facility logo">
       </a>
+
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html" class="active">Contact Us</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Services</a>
         <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
       </nav>
+
+      <div class="header-actions">
+        <a href="tel:4075550148" class="header-mini-pill">Call Us</a>
+        <a href="contact.html" class="button primary quote-btn">Get A Quote</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="page-hero">
-      <div class="page-hero-grid">
+  <section class="inner-hero inner-hero-services" aria-label="Services banner">
+    <div class="inner-hero-overlay">
+      <div class="container inner-hero-content">
         <div>
-          <p class="kicker">Let us support your sites</p>
-          <h1>Contact Us Today</h1>
-          <p>
-            Reach our team for service requests, maintenance planning, or portfolio onboarding.
-          </p>
+          <p class="kicker-hero">Statewide Facility</p>
+          <h1>Services</h1>
         </div>
-        <img src="https://picsum.photos/seed/sf-contact-hero/1200/760" alt="Facility coordination team" class="page-hero-media" loading="lazy" decoding="async">
       </div>
-    </section>
+    </div>
+  </section>
+
+  <div class="ticker" aria-label="Service ticker">
+    <div class="ticker-track">
+      Pest Control &nbsp;•&nbsp; Janitorial &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Paints &nbsp;•&nbsp; Dry Wall &nbsp;•&nbsp; Pressure Wash Interior &amp; Exterior &nbsp;•&nbsp; Doors &nbsp;•&nbsp; Windows &nbsp;•&nbsp; Glass &nbsp;&nbsp;|&nbsp;&nbsp;
+      Pest Control &nbsp;•&nbsp; Janitorial &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Paints &nbsp;•&nbsp; Dry Wall &nbsp;•&nbsp; Pressure Wash Interior &amp; Exterior &nbsp;•&nbsp; Doors &nbsp;•&nbsp; Windows &nbsp;•&nbsp; Glass &nbsp;&nbsp;|&nbsp;&nbsp;
+    </div>
+  </div>
+
+  <main class="container">
 
     <section class="section split" aria-label="Contact information and form">
       <article class="card">
@@ -51,8 +62,8 @@
         <ul class="contact-list">
           <li><strong>Phone:</strong> (407) 555-0148</li>
           <li><strong>Email:</strong> service@statewidefacility.com</li>
-          <li><strong>Office:</strong> Orlando, FL</li>
-          <li><strong>Coverage:</strong> Greater Orlando area</li>
+          <li><strong>Office:</strong> Florida, USA</li>
+          <li><strong>Coverage:</strong> All of Florida</li>
           <li><strong>Hours:</strong> Mon-Sat, 7:00 AM - 8:00 PM</li>
         </ul>
       </article>
@@ -93,7 +104,7 @@
       <article class="card">
         <h3>Dispatch and Service Coverage</h3>
         <p>
-          Our Orlando dispatch desk coordinates urgent and scheduled calls with clear response
+          Our Florida-wide dispatch desk coordinates urgent and scheduled calls with clear response
           windows and status updates.
         </p>
         <p>
@@ -101,14 +112,16 @@
         </p>
       </article>
       <article class="image-card tall">
-        <img src="https://picsum.photos/seed/sf-contact/1200/900" alt="Service dispatch coordination workspace" loading="lazy" decoding="async" class="lazy-media">
+        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80" alt="Service dispatch coordination workspace" loading="lazy" decoding="async" class="lazy-media">
       </article>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <strong>Statewide Facility</strong> | Fast and reliable service across Orlando
+  <footer class="site-footer-full" aria-label="Site footer">
+    <div class="container footer-mini">
+      <img src="sf-logo.png" alt="Statewide Facility" class="footer-logo-mini" loading="lazy">
+      <p class="footer-mini-meta">(407) 555-0148</p>
+      <p class="footer-mini-meta">© 2026 Statewide Facility. All rights reserved.</p>
     </div>
   </footer>
 </body>

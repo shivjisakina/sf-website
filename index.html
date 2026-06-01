@@ -3,53 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Statewide Facility | Orlando Facility Services</title>
+  <title>Statewide Facility | Florida Facility Services</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="home-page">
 
   <!-- ══ HEADER ══ -->
-  <header class="site-header">
-    <div class="top-strip">
-      <div class="container top-strip-inner">
-        <a href="tel:4075550148" class="top-link">(407) 555-0148</a>
-        <a href="mailto:service@statewidefacility.com" class="top-link">service@statewidefacility.com</a>
-        <a href="contact.html" class="top-cta">Get Started</a>
-      </div>
-    </div>
-    <div class="container header-inner">
-      <a href="index.html" class="brand" aria-label="Statewide Facility home">
-        <img src="sf-logo.png" class="brand-logo" alt="Statewide Facility logo">
+  <header class="site-header hero-header">
+    <div class="header-shell">
+      <a href="index.html" class="brand-block" aria-label="Statewide Facility home">
+        <img src="sf-logo.png" class="brand-logo-home" alt="Statewide Facility logo">
       </a>
+
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html" class="active">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Services</a>
         <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
       </nav>
+
+      <div class="header-actions">
+        <a href="tel:4075550148" class="header-mini-pill">Call Us</a>
+        <a href="contact.html" class="button primary quote-btn">Get A Quote</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </div>
   </header>
 
   <!-- ══ HERO ══ -->
-  <section class="hero" aria-label="Company overview">
+  <section class="hero hero-modern" aria-label="Company overview">
+    <div class="hero-slides" aria-hidden="true"></div>
     <div class="hero-overlay">
       <div class="container hero-inner">
         <div class="hero-text">
-          <p class="kicker-hero">One Call For All Your Service Needs</p>
-          <h1>Let's Build A Better<br>Facility Together</h1>
-          <p class="hero-sub">Statewide Facility delivers professional pest control, janitorial, electrical, painting, drywall, pressure wash, and more across Orlando.</p>
-          <div class="button-row">
+          <p class="kicker-hero hero-copy is-visible" id="hero-kicker">Modern Facility Operations</p>
+          <h1 class="hero-copy is-visible" id="hero-title">Build Smarter<br>Maintain Faster</h1>
+          <p class="hero-sub hero-copy is-visible" id="hero-sub">From dispatch to closeout, Statewide Facility keeps Florida properties clean, safe, and always client-ready.</p>
+          <div class="button-row hero-copy is-visible" id="hero-actions">
             <a class="button primary" href="contact.html">Request Service</a>
             <a class="button ghost" href="about.html">Learn More</a>
           </div>
         </div>
         <div class="hero-cta-card">
-          <p class="cta-card-kicker">Contact Our Experts</p>
-          <h3>Let's Talk With Our Experts</h3>
-          <p>Fast response. Transparent pricing. Dependable outcomes across Orlando.</p>
+          <p class="cta-card-kicker">Rapid Dispatch</p>
+          <h3>Coverage Built For Busy Properties</h3>
+          <p>24/7 intake support, scheduled maintenance plans, and dependable on-site service teams.</p>
           <a class="button primary btn-full" href="contact.html">Get A Free Quote</a>
         </div>
       </div>
@@ -71,7 +77,7 @@
       <div class="container">
         <div class="about-grid">
           <div class="about-img-wrap">
-            <img src="https://picsum.photos/seed/sf-about-light/800/1000" alt="Statewide Facility team" loading="lazy" decoding="async" class="about-img">
+            <img src="https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?auto=format&fit=crop&w=900&q=80" alt="Commercial facility building representing statewide operations" loading="lazy" decoding="async" class="about-img">
             <div class="years-badge">
               <span class="badge-num">10<sup>+</sup></span>
               <span class="badge-label">Years of<br>Experience</span>
@@ -80,11 +86,11 @@
           <div class="about-content">
             <p class="kicker">More About Us</p>
             <h2>Builds Quality, Durable &amp; Innovative Residential And Commercial Projects.</h2>
-            <p>Statewide Facility is a comprehensive facility services provider based in Orlando, FL. We deliver dependable, professional support for commercial and residential properties — from routine maintenance to rapid response calls.</p>
+            <p>Statewide Facility is a comprehensive facility services provider based in Florida. We deliver dependable, professional support for commercial and residential properties — from routine maintenance to rapid response calls.</p>
             <p>Our team operates with enterprise discipline: structured work orders, scheduled reporting, and consistent quality checks on every site we serve.</p>
             <div class="about-checks">
               <div class="check-item">Licensed &amp; certified technicians</div>
-              <div class="check-item">Serving all of Greater Orlando</div>
+              <div class="check-item">Serving all of Florida</div>
               <div class="check-item">Residential &amp; commercial support</div>
               <div class="check-item">Fast &amp; reliable dispatching</div>
             </div>
@@ -165,7 +171,7 @@
       <div class="container">
         <div class="feature-grid">
           <div class="feature-img-wrap">
-            <img src="https://picsum.photos/seed/sf-feature/800/1000" alt="Facility maintenance professional" loading="lazy" decoding="async" class="feature-img">
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80" alt="Facility professionals coordinating technical work on site" loading="lazy" decoding="async" class="feature-img">
             <div class="feature-badge">
               <span class="badge-num">98<sup>%</sup></span>
               <span class="badge-label">Client<br>Satisfaction</span>
@@ -218,21 +224,21 @@
         </div>
         <div class="portfolio-grid">
           <article class="portfolio-card">
-            <img src="https://picsum.photos/seed/sf-interior/1000/760" alt="Clean office interior" loading="lazy" decoding="async">
+            <img src="images/field-janitorial.svg" alt="Janitorial team cleaning office interior" loading="lazy" decoding="async">
             <div class="portfolio-overlay">
               <span class="port-cat">Janitorial</span>
               <h4>Interior Readiness Programs</h4>
             </div>
           </article>
           <article class="portfolio-card">
-            <img src="https://picsum.photos/seed/sf-exterior/1000/760" alt="Exterior maintenance" loading="lazy" decoding="async">
+            <img src="images/field-pressure-wash.svg" alt="Exterior pressure washing on commercial building" loading="lazy" decoding="async">
             <div class="portfolio-overlay">
               <span class="port-cat">Pressure Wash</span>
               <h4>Exterior Restoration &amp; Wash</h4>
             </div>
           </article>
           <article class="portfolio-card">
-            <img src="https://picsum.photos/seed/sf-electric/1000/760" alt="Technical maintenance" loading="lazy" decoding="async">
+            <img src="images/field-electrical.svg" alt="Electrical technician working on wiring and panel" loading="lazy" decoding="async">
             <div class="portfolio-overlay">
               <span class="port-cat">Electrical</span>
               <h4>Technical &amp; Electrical Support</h4>
@@ -257,47 +263,138 @@
 
   <!-- ══ FOOTER ══ -->
   <footer class="site-footer-full" aria-label="Site footer">
-    <div class="container footer-grid">
-      <div class="footer-col">
-        <img src="sf-logo.png" alt="Statewide Facility" class="footer-logo" loading="lazy">
-        <p class="footer-desc">One call for all your facility service needs. Serving Orlando with dependable, professional support for residential and commercial properties.</p>
-      </div>
-      <div class="footer-col">
-        <h4 class="footer-heading">Services</h4>
-        <ul class="footer-links">
-          <li>Pest Control</li>
-          <li>Janitorial</li>
-          <li>Electrical</li>
-          <li>Paints &amp; Dry Wall</li>
-          <li>Pressure Wash</li>
-          <li>Doors, Windows &amp; Glass</li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="footer-heading">Quick Links</h4>
-        <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="careers.html">Careers</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="footer-heading">Get In Touch</h4>
-        <ul class="footer-links">
-          <li>(407) 555-0148</li>
-          <li>service@statewidefacility.com</li>
-          <li>Orlando, Florida</li>
-          <li>Mon–Sat, 7:00 AM – 8:00 PM</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <p>© 2026 Statewide Facility. All rights reserved. Orlando, FL.</p>
-      </div>
+    <div class="container footer-mini">
+      <img src="sf-logo.png" alt="Statewide Facility" class="footer-logo-mini" loading="lazy">
+      <p class="footer-mini-meta">(407) 555-0148</p>
+      <p class="footer-mini-meta">© 2026 Statewide Facility. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var slideData = [
+        {
+          image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Modern Facility Operations",
+          title: "Build Smarter<br>Maintain Faster",
+          sub: "From dispatch to closeout, Statewide Facility keeps Florida properties clean, safe, and always client-ready."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Construction-Ready Support",
+          title: "Built For Complex<br>Job Sites",
+          sub: "We support high-demand environments with reliable scheduling, rapid response teams, and quality-first execution."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Statewide Coverage",
+          title: "Florida Service<br>Without Gaps",
+          sub: "From single facilities to multi-site portfolios, our teams deliver consistent outcomes across every region we serve."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Commercial Expertise",
+          title: "Large Buildings<br>Handled Right",
+          sub: "Our teams support modern commercial towers, mixed-use assets, and complex operational footprints with confidence."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Technical Execution",
+          title: "Precise Work<br>At Every Stage",
+          sub: "From inspections to closeout, we apply strict quality standards and clear reporting on every task."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Residential Support",
+          title: "Reliable Service<br>For Communities",
+          sub: "We help keep residential properties safe, functional, and resident-ready with dependable scheduled support."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Job Site Readiness",
+          title: "Built Around<br>Operational Demands",
+          sub: "Our planning-first approach keeps projects moving with fewer delays, tighter coordination, and better outcomes."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Urban Scale",
+          title: "From Single Sites<br>To Full Portfolios",
+          sub: "We deliver consistent service quality across diverse property types and multi-location environments."
+        },
+        {
+            image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Safety First",
+          title: "Certified Teams<br>Trusted Results",
+          sub: "Licensed professionals, documented processes, and disciplined execution protect your assets and occupants."
+        },
+        {
+          image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=2000&q=80",
+          kicker: "Long-Term Value",
+          title: "Maintain Better<br>Operate Smarter",
+          sub: "Proactive maintenance and responsive support help reduce downtime, extend asset life, and control costs."
+        }
+      ];
+
+      var slidesHost = document.querySelector(".hero-slides");
+      var kickerEl = document.getElementById("hero-kicker");
+      var titleEl = document.getElementById("hero-title");
+      var subEl = document.getElementById("hero-sub");
+      var actionsEl = document.getElementById("hero-actions");
+
+      if (!slidesHost || !kickerEl || !titleEl || !subEl || !actionsEl || !slideData.length) {
+        return;
+      }
+
+      slidesHost.innerHTML = slideData.map(function (slide, idx) {
+        var activeClass = idx === 0 ? " is-active" : "";
+        return '<div class="hero-slide' + activeClass + '" style="background-image: url(\'' + slide.image + '\');"></div>';
+      }).join("");
+
+      var slides = Array.prototype.slice.call(document.querySelectorAll(".hero-slide"));
+
+      var animatedEls = [kickerEl, titleEl, subEl, actionsEl];
+      var current = 0;
+      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      function swapText(data) {
+        kickerEl.textContent = data.kicker;
+        titleEl.innerHTML = data.title;
+        subEl.textContent = data.sub;
+      }
+
+      function animateText(data) {
+        animatedEls.forEach(function (el) { el.classList.remove("is-visible"); });
+
+        window.setTimeout(function () {
+          swapText(data);
+          animatedEls.forEach(function (el, idx) {
+            window.setTimeout(function () {
+              el.classList.add("is-visible");
+            }, idx * 120);
+          });
+        }, 180);
+      }
+
+      function setSlide(index) {
+        slides.forEach(function (slide, idx) {
+          slide.classList.toggle("is-active", idx === index);
+        });
+        animateText(slideData[index]);
+      }
+
+      if (reduceMotion) {
+        setSlide(0);
+        return;
+      }
+
+      setSlide(0);
+
+      window.setInterval(function () {
+        current = (current + 1) % slides.length;
+        setSlide(current);
+      }, 6500);
+    })();
+  </script>
 
 </body>
 </html>

@@ -9,42 +9,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="top-strip">
-      <div class="container top-strip-inner">
-        <a href="tel:4075550148" class="top-link">(407) 555-0148</a>
-        <a href="mailto:service@statewidefacility.com" class="top-link">service@statewidefacility.com</a>
-        <a href="contact.html" class="top-cta">Get Started</a>
-      </div>
-    </div>
-    <div class="container header-inner">
-      <a href="index.html" class="brand" aria-label="Statewide Facility home">
-        <img src="sf-logo.png" class="brand-logo" alt="Statewide Facility logo">
+<body class="inner-shell">
+  <header class="site-header hero-header">
+    <div class="header-shell">
+      <a href="index.html" class="brand-block" aria-label="Statewide Facility home">
+        <img src="sf-logo.png" class="brand-logo-home" alt="Statewide Facility logo">
       </a>
+
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Services</a>
         <a href="careers.html" class="active">Careers</a>
+        <a href="contact.html">Contact</a>
       </nav>
+
+      <div class="header-actions">
+        <a href="tel:4075550148" class="header-mini-pill">Call Us</a>
+        <a href="contact.html" class="button primary quote-btn">Get A Quote</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="page-hero">
-      <div class="page-hero-grid">
+  <section class="inner-hero inner-hero-careers" aria-label="Careers banner">
+    <div class="inner-hero-overlay">
+      <div class="container inner-hero-content">
         <div>
-          <p class="kicker">Join our growth</p>
-          <h1>Build your career with us</h1>
-          <p>
-            We are growing fast and hiring skilled professionals who care about quality, teamwork,
-            and customer experience.
-          </p>
+          <p class="kicker-hero">Statewide Facility</p>
+          <h1>Careers</h1>
         </div>
-        <img src="https://picsum.photos/seed/sf-career-hero/1200/760" alt="Facilities career team collaboration" class="page-hero-media" loading="lazy" decoding="async">
       </div>
-    </section>
+    </div>
+  </section>
+
+  <div class="ticker" aria-label="Service ticker">
+    <div class="ticker-track">
+      Pest Control &nbsp;•&nbsp; Janitorial &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Paints &nbsp;•&nbsp; Dry Wall &nbsp;•&nbsp; Pressure Wash Interior &amp; Exterior &nbsp;•&nbsp; Doors &nbsp;•&nbsp; Windows &nbsp;•&nbsp; Glass &nbsp;&nbsp;|&nbsp;&nbsp;
+      Pest Control &nbsp;•&nbsp; Janitorial &nbsp;•&nbsp; Electrical &nbsp;•&nbsp; Paints &nbsp;•&nbsp; Dry Wall &nbsp;•&nbsp; Pressure Wash Interior &amp; Exterior &nbsp;•&nbsp; Doors &nbsp;•&nbsp; Windows &nbsp;•&nbsp; Glass &nbsp;&nbsp;|&nbsp;&nbsp;
+    </div>
+  </div>
+
+  <main class="container">
 
     <section class="section" aria-label="Open positions">
       <h2>Current Openings</h2>
@@ -96,7 +106,7 @@
 
     <section class="section split" aria-label="Career growth environment">
       <article class="image-card tall">
-        <img src="https://picsum.photos/seed/sf-careers/1200/900" alt="Facility technicians and support team" loading="lazy" decoding="async" class="lazy-media">
+        <img src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?auto=format&fit=crop&w=1200&q=80" alt="Facility technicians and support team" loading="lazy" decoding="async" class="lazy-media">
       </article>
       <article class="card">
         <h3>Growth Pathways</h3>
@@ -111,9 +121,11 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <strong>Statewide Facility</strong> | Building Orlando's strongest service team
+  <footer class="site-footer-full" aria-label="Site footer">
+    <div class="container footer-mini">
+      <img src="sf-logo.png" alt="Statewide Facility" class="footer-logo-mini" loading="lazy">
+      <p class="footer-mini-meta">(407) 555-0148</p>
+      <p class="footer-mini-meta">© 2026 Statewide Facility. All rights reserved.</p>
     </div>
   </footer>
 </body>

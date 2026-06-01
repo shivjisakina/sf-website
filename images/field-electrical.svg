@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+  <title id="title">Technical and Electrical Support</title>
+  <desc id="desc">Stylized electrician panel with wiring, diagnostics display, and safety helmet.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2345"/>
+      <stop offset="100%" stop-color="#1e3c6a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d5e5ff"/>
+      <stop offset="100%" stop-color="#9fbce6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="760" fill="url(#bg)"/>
+
+  <g transform="translate(110 92)">
+    <rect width="520" height="520" rx="14" fill="url(#panel)"/>
+    <rect x="28" y="32" width="220" height="100" rx="8" fill="#1f2f50"/>
+    <text x="44" y="94" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#f2f6ff">POWER PANEL</text>
+
+    <g stroke-width="8" fill="none" stroke-linecap="round">
+      <path d="M70 210 C200 160, 280 180, 430 120" stroke="#f3cf65"/>
+      <path d="M70 250 C180 230, 290 250, 430 210" stroke="#79d2ff"/>
+      <path d="M70 290 C210 320, 320 300, 430 350" stroke="#ff9e7a"/>
+      <path d="M70 330 C210 360, 290 390, 430 440" stroke="#8cf4bf"/>
+    </g>
+
+    <g fill="#1f2f50">
+      <rect x="52" y="390" width="58" height="82" rx="6"/>
+      <rect x="132" y="390" width="58" height="82" rx="6"/>
+      <rect x="212" y="390" width="58" height="82" rx="6"/>
+      <rect x="292" y="390" width="58" height="82" rx="6"/>
+      <rect x="372" y="390" width="58" height="82" rx="6"/>
+    </g>
+  </g>
+
+  <g transform="translate(700 150)">
+    <rect x="0" y="0" width="220" height="300" rx="12" fill="#152846"/>
+    <circle cx="110" cy="75" r="44" fill="#f6cf5e"/>
+    <path d="M96 48 L128 48 L116 78 L138 78 L92 132 L106 92 L86 92 Z" fill="#1a2a49"/>
+    <rect x="36" y="158" width="148" height="86" rx="10" fill="#e2efff"/>
+    <text x="50" y="210" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1f2f50">LIVE LOAD</text>
+  </g>
+
+  <text x="66" y="700" font-family="Arial, sans-serif" font-size="41" font-weight="700" fill="#eaf2ff">TECHNICAL &amp; ELECTRICAL SUPPORT</text>
+</svg>
