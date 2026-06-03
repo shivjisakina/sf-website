@@ -398,15 +398,7 @@ h3 {
 }
 
 .home-page .menu-toggle {
-  border: 0;
-  background: transparent;
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-  cursor: pointer;
+  display: none;
 }
 
 .home-page .menu-toggle span {
@@ -548,15 +540,7 @@ h3 {
 }
 
 .inner-shell .menu-toggle {
-  border: 0;
-  background: transparent;
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-  cursor: pointer;
+  display: none;
 }
 
 .inner-shell .menu-toggle span {
