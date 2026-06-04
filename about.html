@@ -104,5 +104,42 @@
       <p class="footer-mini-meta">© 2026 Statewide Facility. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- ══ MOBILE NAV ══ -->
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&#x2715;</button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Services</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="button primary mobile-nav-quote">Get A Quote</a>
+  </div>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.menu-toggle');
+      var nav = document.getElementById('mobile-nav');
+      var closeBtn = document.getElementById('mobile-nav-close');
+      function openNav() {
+        nav.classList.add('is-open');
+        nav.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeNav() {
+        nav.classList.remove('is-open');
+        nav.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+      if (toggle) toggle.addEventListener('click', openNav);
+      if (closeBtn) closeBtn.addEventListener('click', closeNav);
+      nav.querySelectorAll('nav a').forEach(function (a) {
+        a.addEventListener('click', closeNav);
+      });
+    })();
+  </script>
+
 </body>
 </html>
