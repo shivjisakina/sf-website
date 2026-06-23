@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Careers | Statewide Facility</title>
+  <title>Services | Statewide Facility</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,8 +19,8 @@
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="careers.html" class="active">Careers</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="careers.html">Careers</a>
         <a href="contact.html">Contact</a>
       </nav>
 
@@ -36,12 +36,12 @@
     </div>
   </header>
 
-  <section class="inner-hero inner-hero-careers" aria-label="Careers banner">
+  <section class="inner-hero inner-hero-services" aria-label="Services banner">
     <div class="inner-hero-overlay">
       <div class="container inner-hero-content">
         <div>
           <p class="kicker-hero">Statewide Facility</p>
-          <h1>Careers</h1>
+          <h1>Services</h1>
         </div>
       </div>
     </div>
@@ -56,67 +56,63 @@
 
   <main class="container">
 
-    <section class="section" aria-label="Open positions">
-      <h2>Current Openings</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>HVAC Technician</h3>
-          <p>Install, inspect, and maintain systems for commercial and mixed-use properties.</p>
-        </article>
-        <article class="card">
-          <h3>Licensed Plumber</h3>
-          <p>Handle routine service calls, emergency response, and preventive projects.</p>
-        </article>
-        <article class="card">
-          <h3>General Maintenance Lead</h3>
-          <p>Oversee teams and ensure service quality across multi-site portfolios.</p>
-        </article>
-        <article class="card">
-          <h3>Customer Support Coordinator</h3>
-          <p>Manage service requests and keep clients informed from dispatch to completion.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section split" aria-label="Benefits and application">
+    <section class="section split" aria-label="Contact information and form">
       <article class="card">
-        <h3>Why Work Here</h3>
-        <ul>
-          <li>Stable year-round work and growth opportunities.</li>
-          <li>Training support and performance-based advancement.</li>
-          <li>Professional team culture focused on excellence.</li>
-          <li>Competitive compensation packages.</li>
+        <h3>Get In Touch</h3>
+        <ul class="contact-list">
+          <li><strong>Phone:</strong> (407) 555-0148</li>
+          <li><strong>Email:</strong> service@statewidefacility.com</li>
+          <li><strong>Office:</strong> Florida, USA</li>
+          <li><strong>Coverage:</strong> All of Florida</li>
+          <li><strong>Hours:</strong> Mon-Sat, 7:00 AM - 8:00 PM</li>
         </ul>
       </article>
 
-      <article class="card">
-        <h3>Apply</h3>
-        <p>
-          Send your resume and role of interest to
-          <strong>careers@statewidefacility.com</strong>.
-        </p>
-        <p>
-          Include your certifications, years of experience, and preferred service area.
-        </p>
+      <form class="form-shell" action="#" method="post">
+        <h3>Request a Call Back</h3>
+
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="company">Company</label>
+        <input id="company" name="company" type="text">
+
+        <label for="service">Service Needed</label>
+        <select id="service" name="service" required>
+          <option value="">Select a service</option>
+          <option>Pest Control</option>
+          <option>Janitorial</option>
+          <option>Electrical</option>
+          <option>Paints</option>
+          <option>Dry Wall</option>
+          <option>Pressure Wash Interior &amp; Exterior</option>
+          <option>Doors</option>
+          <option>Windows</option>
+          <option>Glass</option>
+        </select>
+
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" placeholder="Tell us about your location and service request"></textarea>
+
         <div class="button-row">
-          <a class="button primary" href="contact.html">Contact Recruitment Team</a>
+          <button class="button primary" type="submit">Send Request</button>
         </div>
-      </article>
+      </form>
     </section>
 
-    <section class="section split" aria-label="Career growth environment">
-      <article class="image-card tall">
-        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Statewide Facility team collaborating in a professional indoor environment" loading="lazy" decoding="async" class="lazy-media">
-      </article>
+    <section class="section split" aria-label="Dispatch support">
       <article class="card">
-        <h3>Growth Pathways</h3>
+        <h3>Dispatch and Service Coverage</h3>
         <p>
-          We invest in practical training, field leadership development, and cross-skill advancement
-          so team members can grow with the company.
+          Our Florida-wide dispatch desk coordinates urgent and scheduled calls with clear response
+          windows and status updates.
         </p>
         <p>
-          Our culture values accountability, collaboration, and service excellence on every project.
+          Share your service scope and location count and we will provide a clear action plan.
         </p>
+      </article>
+      <article class="image-card tall">
+        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80" alt="Service dispatch coordination workspace" loading="lazy" decoding="async" class="lazy-media">
       </article>
     </section>
   </main>
@@ -135,8 +131,8 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="careers.html" class="active">Careers</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="careers.html">Careers</a>
       <a href="contact.html">Contact</a>
     </nav>
     <a href="contact.html" class="button primary mobile-nav-quote">Get A Quote</a>

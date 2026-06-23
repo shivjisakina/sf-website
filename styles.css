@@ -478,6 +478,10 @@ h3 {
   background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2000&q=80");
 }
 
+.inner-hero-contact {
+  background-image: url("https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=2000&q=80");
+}
+
 .inner-hero-overlay {
   position: absolute;
   inset: 0;
