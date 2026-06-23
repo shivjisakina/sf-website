@@ -2,35 +2,35 @@
    STATEWIDE FACILITY — LIGHT CLEAN THEME
 ═══════════════════════════════════════ */
 :root {
-  /* Brand */
-  --gold-600: #b59333;
-  --gold-500: #c7aa52;
-  --gold-400: #e5d08c;
-  --gold-300: #f0dfab;
-  --gold-100: #f9f4e5;
+  /* Brand — champagne gold */
+  --gold-600: #9a7c35;
+  --gold-500: #b8924a;
+  --gold-400: #d4aa65;
+  --gold-300: #e8cfa0;
+  --gold-100: #fdf8ed;
 
-  /* Dark surfaces (header, hero, footer, dark bands) */
-  --dark-950: #0a1224;
-  --dark-900: #1f2f50;
-  --dark-800: #2a3b60;
+  /* Dark surfaces — warm espresso, not cold navy */
+  --dark-950: #141110;
+  --dark-900: #1e1a16;
+  --dark-800: #2d2820;
 
-  /* Light surfaces */
-  --body-bg: #f3f6fb;
+  /* Light surfaces — warm ivory/cream */
+  --body-bg: #faf8f5;
   --surface: #ffffff;
-  --surface-alt: #eaf0f9;
+  --surface-alt: #f4f0ea;
 
-  /* Text */
-  --text-900: #1f2f50;
-  --text-700: #445b82;
-  --text-500: #7489ad;
+  /* Text — warm charcoal */
+  --text-900: #1e1a16;
+  --text-700: #5c5248;
+  --text-500: #978880;
 
-  /* Borders */
-  --border: #d8e1f0;
+  /* Borders — warm */
+  --border: #e8dfd5;
 
-  /* Shadows */
-  --shadow-sm: 0 4px 18px rgba(11, 23, 53, 0.07);
-  --shadow-md: 0 10px 32px rgba(11, 23, 53, 0.11);
-  --shadow-lg: 0 20px 55px rgba(11, 23, 53, 0.15);
+  /* Shadows — warm tones */
+  --shadow-sm: 0 4px 18px rgba(30, 20, 8, 0.06);
+  --shadow-md: 0 10px 32px rgba(30, 20, 8, 0.10);
+  --shadow-lg: 0 20px 55px rgba(30, 20, 8, 0.14);
 
   /* Shape */
   --radius-lg: 20px;
@@ -56,7 +56,11 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  letter-spacing: 0.01em;
+}
+
 h3,
 h4,
 .nav-links a,
@@ -112,10 +116,11 @@ p {
 }
 
 h2 {
-  font-size: clamp(1.9rem, 4.5vw, 2.85rem);
+  font-size: clamp(1.9rem, 4.5vw, 2.95rem);
   color: var(--text-900);
-  line-height: 1.1;
+  line-height: 1.15;
   margin: 0.3rem 0 1rem;
+  font-weight: 600;
 }
 
 h3 {
@@ -344,8 +349,8 @@ h3 {
   grid-template-columns: auto 1fr auto;
   align-items: stretch;
   background: rgba(255, 255, 255, 0.98);
-  border: 1px solid rgba(31, 47, 80, 0.1);
-  box-shadow: 0 14px 34px rgba(10, 18, 36, 0.2);
+  border: 1px solid rgba(200, 185, 165, 0.2);
+  box-shadow: 0 14px 34px rgba(20, 12, 4, 0.10);
 }
 
 .home-page .brand-block {
@@ -452,8 +457,8 @@ h3 {
   grid-template-columns: auto 1fr auto;
   align-items: stretch;
   background: rgba(255, 255, 255, 0.98);
-  border: 1px solid rgba(31, 47, 80, 0.1);
-  box-shadow: 0 14px 34px rgba(10, 18, 36, 0.2);
+  border: 1px solid rgba(200, 185, 165, 0.2);
+  box-shadow: 0 14px 34px rgba(20, 12, 4, 0.10);
 }
 
 .inner-hero {
@@ -487,9 +492,9 @@ h3 {
   inset: 0;
   background: linear-gradient(
     105deg,
-    rgba(4, 8, 15, 0.58) 0%,
-    rgba(8, 20, 40, 0.38) 50%,
-    rgba(8, 20, 40, 0.2) 100%
+    rgba(10, 7, 3, 0.65) 0%,
+    rgba(10, 7, 3, 0.38) 50%,
+    rgba(10, 7, 3, 0.14) 100%
   );
   display: flex;
   align-items: center;
@@ -609,9 +614,9 @@ h3 {
   inset: 0;
   background: linear-gradient(
     105deg,
-    rgba(4, 8, 15, 0.88) 0%,
-    rgba(11, 23, 53, 0.78) 55%,
-    rgba(11, 23, 53, 0.55) 100%
+    rgba(10, 7, 4, 0.78) 0%,
+    rgba(15, 10, 4, 0.54) 55%,
+    rgba(15, 10, 4, 0.24) 100%
   );
   display: flex;
   align-items: center;
@@ -652,9 +657,9 @@ h3 {
   z-index: 1;
   background: linear-gradient(
     105deg,
-    rgba(4, 8, 15, 0.58) 0%,
-    rgba(8, 20, 40, 0.38) 50%,
-    rgba(8, 20, 40, 0.2) 100%
+    rgba(10, 7, 3, 0.62) 0%,
+    rgba(10, 7, 3, 0.36) 50%,
+    rgba(10, 7, 3, 0.10) 100%
   );
 }
 
@@ -694,11 +699,12 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2.5rem, 7vw, 4.6rem);
-  line-height: 1;
+  font-size: clamp(2.5rem, 7vw, 4.8rem);
+  line-height: 1.04;
   color: #fff;
   margin: 0.4rem 0 1rem;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .hero-text {
@@ -706,12 +712,12 @@ h1 {
 }
 
 .hero-sub {
-  color: #ffda83;
+  color: rgba(255, 248, 235, 0.92);
   font-size: 1.05rem;
   max-width: 46ch;
   line-height: 1.65;
   margin-bottom: 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Floating CTA card in hero */
@@ -1017,7 +1023,7 @@ h1 {
    STATS BAR
 ═══════════════════════════════════════ */
 .stats-bar {
-  background: linear-gradient(95deg, var(--gold-500), var(--gold-600));
+  background: linear-gradient(135deg, var(--dark-900) 0%, var(--dark-800) 100%);
   padding: 3rem 0;
 }
 
@@ -1039,7 +1045,7 @@ h1 {
   font-family: "Barlow Condensed", sans-serif;
   font-size: clamp(2.4rem, 5vw, 3.8rem);
   font-weight: 800;
-  color: var(--dark-950);
+  color: #ffffff;
   line-height: 1;
   display: block;
 }
@@ -1055,7 +1061,7 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  color: rgba(4, 8, 15, 0.7);
+  color: var(--gold-400);
   display: block;
 }
 
@@ -1202,7 +1208,7 @@ main.container {
 }
 
 .page-hero p {
-  color: rgba(200, 220, 255, 0.8);
+  color: rgba(240, 225, 200, 0.85);
 }
 
 .page-hero-grid {
